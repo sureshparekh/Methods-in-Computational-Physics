@@ -1,0 +1,5 @@
+#set terminal type 'qt'
+set xlabel 'nmc'
+set ylabel 'Total Potential Energy'
+set title 'Assinment-6:Q1'
+pl './LJa95.txt' w l title'a=0.95', './LJa112.txt' w l title 'a=1.12'

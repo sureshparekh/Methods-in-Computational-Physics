@@ -1,0 +1,5 @@
+#set terminal type 'qt'
+set xlabel 'nmc'
+set ylabel 'Total Magnetization per Spin'
+set title '2D Ising Model'
+pl './Ising2D.txt' u 1:3 w l  title 'Total Magnetization'
